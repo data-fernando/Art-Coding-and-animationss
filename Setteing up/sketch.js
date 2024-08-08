@@ -1,5 +1,7 @@
 function setup() {
+  
   createCanvas(400, 400);
+
 }
 
 function draw() {
@@ -22,5 +24,5 @@ function draw() {
 
 
 
-  circle(mouseX,mouseY,300)
+  circle(mouseX,mouseY,150)
 }
