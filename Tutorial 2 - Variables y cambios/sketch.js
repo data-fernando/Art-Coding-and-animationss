@@ -66,10 +66,10 @@ text(`framecount ${frameCount}`,400,750)
 //growing tree
 //trunk
 fill("rgb(118,80,72)");
-rect(50, 500, 15, 50);
+rect(mouseX-5, mouseY, 15, 50);
 //leaves
 fill("green");
-triangle(35, 500, 55, 440, 80, 500);
+triangle(mouseX-20, mouseY , mouseX, mouseY-40, mouseX+20, mouseY);
 
 // ARBOL 2 
 //growing tree
